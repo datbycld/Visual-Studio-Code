@@ -14,7 +14,7 @@ func _extInit():
     attCoe.mgiDef = 1
     lv = 1
     atkEff = "atk_dao"
-    evos = ["c1_1","c1_2"] #可以升级到的生物id
+    evos = ["C+CStarcraft+Zerg_1","C+CStarcraft+Zerg_2"] #可以升级到的生物id
     addSkillTxt("死亡爆炸:死亡时对1格内敌方造成最大生命值100%的物理正常伤害")
 #进入战斗初始化，事件连接在这里初始化
 func _connect():

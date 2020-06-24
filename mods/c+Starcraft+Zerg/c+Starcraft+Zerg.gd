@@ -8,14 +8,14 @@ func _extInit():
     chaName = "自杀蝙蝠"
     attCoe.atkRan = 1
     attCoe.maxHp = 4
-    attCoe.atk = 2
+    attCoe.atk = 1
     attCoe.mgiAtk = 1
     attCoe.def = 1
     attCoe.mgiDef = 1
     lv = 1
     atkEff = "atk_dao"
     evos = ["C+CStarcraft+Zerg_1","C+CStarcraft+Zerg_2"] #可以升级到的生物id
-    addSkillTxt("死亡爆炸:死亡时对1格内敌方造成最大生命值100%的物理正常伤害")
+    addSkillTxt("化学合成(爆炸):死亡时对1格内敌方造成最大生命值100%的物理正常伤害")
 #进入战斗初始化，事件连接在这里初始化
 func _connect():
     ._connect() #保留继承的处理

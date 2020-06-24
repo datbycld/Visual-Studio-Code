@@ -1,4 +1,4 @@
-extends ../C+CStarcraft+Zerg/C+CStarcraft+Zerg.gd
+extends ../c+Starcraft+Zerg/c+Starcraft+Zerg.gd
 #覆盖的初始化
 func _info():
     pass
@@ -7,10 +7,10 @@ func _extInit():
     ._extInit()#保留继承的处理
     chaName = "异龙"
     attCoe.atkRan += 2
-    attCoe.atk += 2
-    attCoe.def += 1
-    attCoe.mgiDef += 1
-    lv = 1
+    attCoe.atk += 3
+    attCoe.def += 2
+    attCoe.mgiDef += 2
+    lv = 2
     atkEff = "atk_dao"
     evos = ["C+CStarcraft+Zerg_3","C+CStarcraft+Zerg_4"] #可以升级到的生物id
     var num = 2

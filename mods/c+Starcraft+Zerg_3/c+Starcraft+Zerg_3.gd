@@ -13,7 +13,7 @@ func _extInit():
     attAdd.spd -= 0.2
     atkEff = "atk_dao"
     evos = [] #可以升级到的生物id
-    addSkillTxt("虫族甲壳(重型甲壳):减少20%的全部伤害，但基础攻速减少20%")
+    addSkillTxt("虫族之躯(重甲结构):减少20%的全部伤害，但基础攻速减少20%")
 #进入战斗初始化，事件连接在这里初始化
 func _connect():
     ._connect() #保留继承的处理

@@ -15,7 +15,7 @@ func _extInit():
     lv = 2
     atkEff = "atk_dao"
     evos = ["c+Starcraft+Zerg_5","c+Starcraft+Zerg_6"] #可以升级到的生物id
-    addSkillTxt("活体武器(腐化):攻击时激射体内的腐蚀性物质，赋予目标2层[中毒]")
+    addSkillTxt("活体武器(腐化):攻击时激射体内的腐蚀性物质，赋予目标"+lv+"层[中毒]")
     addSkillTxt("化学合成(腐蚀):腐化者改造了自杀蝙蝠体内的爆炸性化学物质，拥有腐蚀护甲的能力，每次攻击命中减少目标15点护甲(最低0点)")
 #进入战斗初始化，事件连接在这里初始化
 func _connect():

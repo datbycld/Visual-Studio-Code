@@ -7,7 +7,7 @@ func _extInit():
     ._extInit()#保留继承的处理
     chaName = "吞噬者"
     attCoe.atkRan = 3
-    attCoe.maxHp = 4
+    attCoe.maxHp = 6
     attCoe.atk = 5
     attCoe.mgiAtk = 1
     attCoe.def = 15
